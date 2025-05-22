@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منوی رستوران فست فود</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="bg-image"></div>
+  <!-- نوار ناوبری -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">فست فود دلپذیر</a>
+      <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-buttons" id="navButtons">
+        <button onclick="showMenu()" class="active">نمایش همه</button>
+        <button onclick="filterCategory('پیتزاها')">پیتزاها</button>
+        <button onclick="filterCategory('ساندویچ‌ها')">ساندویچ‌ها</button>
+        <button onclick="filterCategory('سالادها')">سالادها</button>
+        <button onclick="filterCategory('نوشیدنی‌ها')">نوشیدنی‌ها</button>
+      </div>
+      <div class="search-container">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="جستجوی منو..." oninput="searchMenu()">
+      </div>
+    </div>
+  </nav>
+  
+  <!-- هدر -->
+  <header>
+    <div class="container">
+      <h1>منوی رستوران فست فود</h1>
+      <p>لذیذترین غذاها با بهترین کیفیت</p>
+    </div>
+  </header>
+  
+  <!-- محتوای اصلی -->
+  <main class="container">
+    <div id="menu-container"></div>
+  </main>
+  
+  <!-- فوتر -->
+  <footer>
+    <div class="container footer-content">
+      <div class="social-icons">
+        <a href="./wood__yousefnezhad"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p>تمامی حقوق برای رستوران فست فود دلپذیر محفوظ است © ۱۴۰۲</p>
+      <p>آدرس: تهران، خیابان نمونه، پلاک ۱۲۳</p>
+      <p>تلفن: 09372168827</p>
+    </div>
+  </footer>
+  
+  <!-- دکمه بازگشت به بالا -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script src="./script.js"></script>
+  
+  
+    
+  
+</body>
+</html>
