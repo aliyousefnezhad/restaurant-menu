@@ -1,43 +1,43 @@
 // داده‌های منو با تصاویر جایگزین
     const menu = {
       "پیتزاها": [
-      { name: "پیتزا مخصوص", price: 250000, img: "images/pizza1.jpg" },
-      { name: "پیتزا پپرونی", price: 220000, img: "images/pizza2.jpg" },
-      { name: "پیتزا قارچ و گوشت", price: 230000, img: "images/pizza3.jpg" },
-      { name: "پیتزا مارگاریتا", price: 210000, img: "images/pizza4.jpg" },
-      { name: "پیتزا سبزیجات", price: 200000, img: "images/pizza5.jpg" },
-      { name: "پیتزا چهارفصل", price: 240000, img: "images/pizza6.jpg" },
-      { name: "پیتزا مرغ و قارچ", price: 235000, img: "images/pizza7.jpg" },
-      { name: "پیتزا ناپولی", price: 260000, img: "images/pizza8.jpg" },
-      { name: "پیتزا کالزونه", price: 255000, img: "images/pizza9.jpg" },
-      { name: "پیتزا مکزیکی", price: 245000, img: "images/pizza10.jpg" }
+      { name: "پیتزا مخصوص", price: 250000, img: "./pizza1.jpg" },
+      { name: "پیتزا پپرونی", price: 220000, img: "./pizza2.jpg" },
+      { name: "پیتزا قارچ و گوشت", price: 230000, img: "./pizza3.jpg" },
+      { name: "پیتزا مارگاریتا", price: 210000, img: "./pizza4.jpg" },
+      { name: "پیتزا سبزیجات", price: 200000, img: "./pizza5.jpg" },
+      { name: "پیتزا چهارفصل", price: 240000, img: "./pizza6.jpg" },
+      { name: "پیتزا مرغ و قارچ", price: 235000, img: "./pizza7.jpg" },
+      { name: "پیتزا ناپولی", price: 260000, img: "./pizza8.jpg" },
+      { name: "پیتزا کالزونه", price: 255000, img: "./pizza9.jpg" },
+      { name: "پیتزا مکزیکی", price: 245000, img: "./pizza10.jpg" }
       ],
       "ساندویچ‌ها": [
-      { name: "ساندویچ همبرگر", price: 180000, img: "images/sandwich1.jpg" },
-      { name: "ساندویچ چیزبرگر", price: 190000, img: "images/sandwich2.jpg" },
-      { name: "ساندویچ مرغ", price: 170000, img: "images/sandwich3.jpg" },
-      { name: "ساندویچ کالباس", price: 160000, img: "images/sandwich4.jpg" },
-      { name: "ساندویچ بندری", price: 165000, img: "images/sandwich5.jpg" },
-      { name: "ساندویچ ژامبون گوشت", price: 185000, img: "images/sandwich6.jpg" },
-      { name: "ساندویچ هات‌داگ", price: 175000, img: "images/sandwich7.jpg" },
-      { name: "ساندویچ فلافل", price: 150000, img: "images/sandwich8.jpg" },
-      { name: "ساندویچ تن ماهی", price: 180000, img: "images/sandwich9.jpg" },
-      { name: "ساندویچ استیک", price: 200000, img: "images/sandwich10.jpg" }
+      { name: "ساندویچ همبرگر", price: 180000, img: "./sandwich1.jpg" },
+      { name: "ساندویچ چیزبرگر", price: 190000, img: "./sandwich2.jpg" },
+      { name: "ساندویچ مرغ", price: 170000, img: "./sandwich3.jpg" },
+      { name: "ساندویچ کالباس", price: 160000, img: "./sandwich4.jpg" },
+      { name: "ساندویچ بندری", price: 165000, img: "./sandwich5.jpg" },
+      { name: "ساندویچ ژامبون گوشت", price: 185000, img: "./sandwich6.jpg" },
+      { name: "ساندویچ هات‌داگ", price: 175000, img: "./sandwich7.jpg" },
+      { name: "ساندویچ فلافل", price: 150000, img: "./sandwich8.jpg" },
+      { name: "ساندویچ تن ماهی", price: 180000, img: "./sandwich9.jpg" },
+      { name: "ساندویچ استیک", price: 200000, img: "./sandwich10.jpg" }
       ],
       "سالادها": [
-      { name: "سالاد فصل", price: 80000, img: "images/salad1.jpg" },
-      { name: "سالاد سزار", price: 95000, img: "images/salad2.jpg" },
-      { name: "سالاد یونانی", price: 90000, img: "images/salad3.jpg" },
-      { name: "سالاد کلم", price: 75000, img: "images/salad4.jpg" },
-      { name: "سالاد ذرت", price: 85000, img: "images/salad5.jpg" },
-      { name: "سالاد ماکارونی", price: 95000, img: "images/salad6.jpg" }
+      { name: "سالاد فصل", price: 80000, img: "./salad1.jpg" },
+      { name: "سالاد سزار", price: 95000, img: "./salad2.jpg" },
+      { name: "سالاد یونانی", price: 90000, img: "./salad3.jpg" },
+      { name: "سالاد کلم", price: 75000, img: "./salad4.jpg" },
+      { name: "سالاد ذرت", price: 85000, img: "./salad5.jpg" },
+      { name: "سالاد ماکارونی", price: 95000, img: "./salad6.jpg" }
       ],
       "نوشیدنی‌ها": [
-      { name: "نوشابه قوطی", price: 30000, img: "images/drink1.jpg" },
-      { name: "دوغ", price: 35000, img: "images/drink2.jpg" },
-      { name: "آب معدنی", price: 20000, img: "images/drink3.jpg" },
-      { name: "دلستر", price: 40000, img: "images/drink4.jpg" },
-      { name: "آبمیوه طبیعی", price: 60000, img: "images/drink5.jpg" }
+      { name: "نوشابه قوطی", price: 30000, img: "./drink1.jpg" },
+      { name: "دوغ", price: 35000, img: "./drink2.jpg" },
+      { name: "آب معدنی", price: 20000, img: "./drink3.jpg" },
+      { name: "دلستر", price: 40000, img: "./drink4.jpg" },
+      { name: "آبمیوه طبیعی", price: 60000, img: "./drink5.jpg" }
       ],
     };
     
